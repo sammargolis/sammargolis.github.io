@@ -1,0 +1,66 @@
+body {
+    background-color: #F2F0EB;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+ul {
+  margin: 0;
+}
+
+.directory {
+  list-style-type: none;
+  display: flex;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 1rem;
+}
+.directory .active-item {
+  margin: 0 0.25rem;
+}
+.directory li:first-child {
+  margin-left: 0;
+}
+.directory li:first-child a {
+  margin-left: 0;
+}
+.directory li a {
+  margin: 0 0.25rem;
+}
+
+.explanation {
+  margin: 0;
+  font-size: 1rem;
+  max-width: 50%;
+  line-height: 1.5rem;
+}
+@media screen and (max-width: 500px) {
+  .explanation {
+    max-width: 100%;
+  }
+}
+
+.content-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.content-list li {
+  margin-bottom: 1.5rem;
+}
+
+a:visited {
+    color: blue;
+}
+
+
+/*# sourceMappingURL=index.css.map */
